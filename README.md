@@ -1,4 +1,4 @@
-## Short description
+# personal portfolio
 
 A modern, multilingual personal portfolio website built with Next.js 16 and the App Router. Features a responsive design, internationalization support, and a functional contact form with email notifications.
 
@@ -13,12 +13,11 @@ A modern, multilingual personal portfolio website built with Next.js 16 and the 
 
 ## 🛠️ Technologies Used
 
-- Framework: Next.js 16 (App Router)
-- Frontend: React 19, CSS Modules
-- Email Service: SendGrid with Nodemailer
-- Validation: libphonenumber-js for international phone numbers
-- Image Optimization: Next.js Image component
-- Typography: Cormorant, Rubik and Gloock font family
+- Next.js 16 (App Router)
+- React 19, CSS Modules
+- SendGrid with Nodemailer
+- libphonenumber-js for international phone numbers
+- Next.js Image component
 
 ## 📦 Installation
 
