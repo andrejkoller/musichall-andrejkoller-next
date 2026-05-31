@@ -1,4 +1,4 @@
-# musichall-andrejkoller-next
+﻿# musichall-andrejkoller-next
 
 A minimalist portfolio website dedicated to musical projects and creative work. Built with modern web technologies and a focus on performance, internationalization, and clean design.
 
@@ -55,53 +55,53 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ```
 musichall-andrejkoller-next/
-+-- public/
-�   +-- audios/                   # Background audio files
-�   +-- images/                   # Static images
-�   +-- locales/
-�       +-- de.json               # German translations
-�       +-- en.json               # English translations
-�       +-- ru.json               # Russian translations
-+-- src/
-�   +-- app/
-�   �   +-- globals.css           # Global styles
-�   �   +-- layout.jsx            # Root layout
-�   �   +-- page.jsx              # Root redirect
-�   �   +-- [lang]/
-�   �   �   +-- layout.jsx        # Language layout with fonts
-�   �   �   +-- layout-client.jsx # Client-side layout wrapper
-�   �   �   +-- page.jsx          # Home page
-�   �   �   +-- about/            # About page
-�   �   �   +-- contact/          # Contact page
-�   �   �   +-- gallery/          # Gallery page
-�   �   �   +-- inspiration/      # Inspiration page
-�   �   �   +-- projects/         # Projects and sub-project pages
-�   �   +-- api/
-�   �       +-- send-email/
-�   �           +-- contact/
-�   �               +-- route.js  # Email API route
-�   +-- components/
-�   �   +-- background-music/     # Audio player with SiriWave
-�   �   +-- cookie-banner/        # GDPR cookie consent
-�   �   +-- cursor/               # Custom animated cursor
-�   �   +-- footer/               # Footer component
-�   �   +-- header/               # Header component
-�   �   +-- language-switcher/    # Language toggle
-�   �   +-- link-button/          # Reusable link button
-�   �   +-- menu/                 # Navigation menu
-�   +-- contexts/
-�   �   +-- translation-context.js
-�   +-- hooks/
-�   �   +-- use-translation.js
-�   +-- libs/
-�   �   +-- get-dictionary.js
-�   +-- providers/
-�       +-- translation-provider.jsx
-+-- eslint.config.mjs             # ESLint configuration
-+-- jsconfig.json                 # JS path aliases
-+-- LICENSE
-+-- next.config.mjs               # Next.js configuration
-+-- package.json
+├── public/
+│   ├── audios/                   # Background audio files
+│   ├── images/                   # Static images
+│   └── locales/
+│       ├── de.json               # German translations
+│       ├── en.json               # English translations
+│       └── ru.json               # Russian translations
+├── src/
+│   ├── app/
+│   │   ├── globals.css           # Global styles
+│   │   ├── layout.jsx            # Root layout
+│   │   ├── page.jsx              # Root redirect
+│   │   ├── [lang]/
+│   │   │   ├── layout.jsx        # Language layout with fonts
+│   │   │   ├── layout-client.jsx # Client-side layout wrapper
+│   │   │   ├── page.jsx          # Home page
+│   │   │   ├── about/            # About page
+│   │   │   ├── contact/          # Contact page
+│   │   │   ├── gallery/          # Gallery page
+│   │   │   ├── inspiration/      # Inspiration page
+│   │   │   └── projects/         # Projects and sub-project pages
+│   │   └── api/
+│   │       └── send-email/
+│   │           └── contact/
+│   │               └── route.js  # Email API route
+│   ├── components/
+│   │   ├── background-music/     # Audio player with SiriWave
+│   │   ├── cookie-banner/        # GDPR cookie consent
+│   │   ├── cursor/               # Custom animated cursor
+│   │   ├── footer/               # Footer component
+│   │   ├── header/               # Header component
+│   │   ├── language-switcher/    # Language toggle
+│   │   ├── link-button/          # Reusable link button
+│   │   └── menu/                 # Navigation menu
+│   ├── contexts/
+│   │   └── translation-context.js
+│   ├── hooks/
+│   │   └── use-translation.js
+│   ├── libs/
+│   │   └── get-dictionary.js
+│   └── providers/
+│       └── translation-provider.jsx
+├── eslint.config.mjs             # ESLint configuration
+├── jsconfig.json                 # JS path aliases
+├── LICENSE
+├── next.config.mjs               # Next.js configuration
+└── package.json
 ```
 
 ## License
