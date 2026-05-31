@@ -39,9 +39,6 @@ export default function Page({ params }) {
           </div>
         </div>
       </div>
-      <div className={styles.projectVideoContainer}>
-        <span>{t?.project.notification.text}</span>
-      </div>
     </div>
   );
 }
