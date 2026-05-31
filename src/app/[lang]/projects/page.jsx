@@ -48,14 +48,6 @@ const projectItems = [
     image: "/images/grey_and_silver_whistler.webp",
     href: "projects/vexations",
   },
-  {
-    title: "Nocturne in E-flat major, Op. 9 No. 2",
-    author: "Frédéric Chopin",
-    category: "solo",
-    instrument: "Fortepiano",
-    image: "/images/sunset.jpg",
-    href: "projects/nocturne-in-e-flat-major",
-  },
 ];
 
 export default function Page({ params }) {
@@ -67,7 +59,7 @@ export default function Page({ params }) {
 
   const filteredProjectItems = useMemo(() => {
     return projectItems.filter(
-      (item) => filter === "all" || item.category === filter
+      (item) => filter === "all" || item.category === filter,
     );
   }, [filter]);
 
@@ -100,7 +92,7 @@ export default function Page({ params }) {
             <div
               className={classNames(
                 styles.projectItem,
-                styles[projectItem.category]
+                styles[projectItem.category],
               )}
               key={projectItem.title}
               style={{

@@ -49,7 +49,7 @@ export const Menu = ({ isMenuOpen, toggleMenu }) => {
         <div className={styles.menuHeader}>
           <div className={styles.menuLogo}>
             <Link href={lang === "en" ? "/" : `/${lang}`} scroll={false}>
-              <h3>Violino</h3>
+              <h3>Piano & Organ</h3>
               <h1>Andrej Koller</h1>
             </Link>
           </div>
