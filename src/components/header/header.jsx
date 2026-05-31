@@ -27,7 +27,6 @@ export const Header = ({ toggleMenu }) => {
           className={classNames(styles.headerLogo, {
             [styles.home]: isHome,
           })}
-          Fvio
         >
           <Link href={lang === "en" ? "/" : `/${lang}`} scroll={false}>
             <h3>Piano & Organ</h3>
